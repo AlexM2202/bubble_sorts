@@ -40,7 +40,7 @@ int main(int argc, char* argv[]){
         }
     }
     cout << "Done, writing now" << endl;
-    fstream ofile("outpu_cpp.txt", ios::out);
+    fstream ofile("output_cpp.txt", ios::out);
     if(!ofile)
         cout << "ERROR: no output!" << endl;
     for(int x = 0; x < vect.size(); x++){
